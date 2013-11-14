@@ -1,6 +1,6 @@
 development: &DEVELOPMENT
   adapter: postgresql
-  port: 15432
+  port: <%= ENV.fetch("BOXEN_POSTGRESQL_PORT", 5432)%>
   encoding: unicode
   database: adopt_a_thing_development
   pool: 5

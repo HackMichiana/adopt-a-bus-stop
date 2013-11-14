@@ -1,7 +1,11 @@
 development: &DEVELOPMENT
   adapter: postgresql
+  port: 15432
+  encoding: unicode
   database: adopt_a_thing_development
-  host: localhost
+  pool: 5
+  username: adopt
+  password:
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".

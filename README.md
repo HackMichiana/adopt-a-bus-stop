@@ -1,3 +1,8 @@
+# South Bend Specific Version
+
+* Heroku: http://adopt-a-stop.herokuapp.com/
+* GitHub: https://github.com/HackMichiana/adopt-a-bus-stop
+
 # Adopt-a-Hydrant
 
 [![Build Status](https://secure.travis-ci.org/codeforamerica/adopt-a-hydrant.png?branch=master)][travis]

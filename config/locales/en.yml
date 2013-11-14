@@ -29,7 +29,7 @@ en:
     neighborhood: "Downtown"
     sms_number: "857-555-1212"
     state: "MA"
-    thing: "hydrant"
+    thing: "bus stop"
     this_thing: "This %{thing}"
     tagline: "Claim responsibility for shoveling out a fire hydrant after it snows."
     tos: "By signing up, you agree to the %{tos}."

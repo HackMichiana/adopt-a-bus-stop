@@ -3,28 +3,8 @@
 * Heroku: http://adopt-a-stop.herokuapp.com/
 * GitHub: https://github.com/HackMichiana/adopt-a-bus-stop
 
-# Adopt-a-Hydrant
-
-[![Build Status](https://secure.travis-ci.org/codeforamerica/adopt-a-hydrant.png?branch=master)][travis]
-[![Dependency Status](https://gemnasium.com/codeforamerica/adopt-a-hydrant.png?travis)][gemnasium]
-[![Coverage Status](https://coveralls.io/repos/codeforamerica/adopt-a-hydrant/badge.png?branch=master)][coveralls]
-
-[travis]: http://travis-ci.org/codeforamerica/adopt-a-hydrant
-[gemnasium]: https://gemnasium.com/codeforamerica/adopt-a-hydrant
-[coveralls]: https://coveralls.io/r/codeforamerica/adopt-a-hydrant
-
-Claim responsibility for shoveling out a fire hydrant after it snows.
-
-## Screenshot
-![Adopt-a-Hydrant](https://github.com/codeforamerica/adopt-a-hydrant/raw/master/screenshot.png "Adopt-a-Hydrant")
-
-## Demo
-You can see a running version of the application at
-[http://adopt-a-hydrant.herokuapp.com/][demo].
-
-[demo]: http://adopt-a-hydrant.herokuapp.com/
-
 ## Installation
+
 This application requires [Postgres](http://www.postgresql.org/) to be installed
 
     git clone git://github.com/codeforamerica/adopt-a-hydrant.git
@@ -35,12 +15,15 @@ This application requires [Postgres](http://www.postgresql.org/) to be installed
     bundle exec rake db:schema:load
 
 ## Usage
+
     rails server
 
 ## Seed Data
+
     bundle exec rake db:seed
 
 ## Deploying to Heroku
+
 A successful deployment to Heroku requires a few setup steps:
 
 1. Generate a new secret token:
@@ -74,6 +57,7 @@ A successful deployment to Heroku requires a few setup steps:
 6. Keep in mind that the Heroku free Postgres plan only allows up to 10,000 rows, so if your city has more than 10,000 fire hydrants (or other thing to be adopted), you will need to upgrade to the $9/month plan.
 
 ## Contributing
+
 In the spirit of [free software][free-sw], **everyone** is encouraged to help
 improve this project.
 
@@ -99,6 +83,7 @@ Here are some ways *you* can contribute:
 [financially]: https://secure.codeforamerica.org/page/contribute
 
 ## Submitting an Issue
+
 We use the [GitHub issue tracker][issues] to track bugs and features. Before
 submitting a bug report or feature request, check to make sure it hasn't
 already been submitted. When submitting a bug report, please include a [Gist][]
@@ -109,6 +94,7 @@ Ideally, a bug report should include a pull request with failing specs.
 [gist]: https://gist.github.com/
 
 ## Submitting a Pull Request
+
 1. [Fork the repository.][fork]
 2. [Create a topic branch.][branch]
 3. Add specs for your unimplemented feature or bug fix.
@@ -125,6 +111,7 @@ Ideally, a bug report should include a pull request with failing specs.
 [pr]: http://help.github.com/send-pull-requests/
 
 ## Supported Ruby Version
+
 This library aims to support and is [tested against][travis] Ruby version 1.9.3.
 
 If something doesn't work on this version, it should be considered a bug.
@@ -140,6 +127,7 @@ timely fashion. If critical issues for a particular implementation exist at the
 time of a major release, support for that Ruby version may be dropped.
 
 ## Copyright
+
 Copyright (c) 2012 Code for America. See [LICENSE][] for details.
 
 [license]: https://github.com/codeforamerica/adopt-a-hydrant/blob/master/LICENSE.md
